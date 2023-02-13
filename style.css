@@ -1,0 +1,38 @@
+* {
+    background-color: antiquewhite;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    border: 5px dashed magenta;
+    margin: 15px;
+    padding-right: 20px;
+}
+
+.left-nav {
+    list-style: none;
+    font-size: 30px;
+    font-family: brush script MT;
+}
+
+.right-nav {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    font-family: fantasy;
+    padding-top: 15px;
+}
+
+.right-nav li {
+    margin-right: 15px;
+}
+
+.right-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.projectItem {
+    list-style: none;
+}
